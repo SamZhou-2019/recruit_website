@@ -14,7 +14,7 @@
 - DataGrip 2021.2.4
 - Apache Tomcat 10.0.12
 
-![0](readme_pic\pic0.png)
+<img src="readme_pic\pic0.png" alt="pic0"/>
 
 
 
@@ -24,9 +24,9 @@
 
 这两个部分主要由前端设计。页面由标题、导航栏、“快速链接”按钮、二维码、侧栏、主题内容、底栏等组成。
 
- ![pic1](readme_pic\pic1.png)
+ <img src="readme_pic\pic1.png" alt="pic1"/>
 
- ![pic2](readme_pic\pic2.png)
+ <img src="readme_pic\pic2.png" alt="pic2"/>
 
 网站导航栏中的链接和侧边栏的链接以表格的形式展示出来，并通过调整css中对应表格的padding值进行对齐。如导航栏的css配置中有
 
