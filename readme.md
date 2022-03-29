@@ -142,7 +142,7 @@ ste = new School('http://ste.xidian.edu.cn/', '029-81891675', 'http://mp\.weixin
 
 ### 2.1 留言列表
 
-  ![pic6](readme_pic\pic6.png)
+  <img src="readme_pic\pic6.png" alt="pic6"/>
 
 留言板页面主体部分由两部分组成，一个为留言列表，另一个为留言区。留言板页面为comment.jsp；留言列表页面为commentList.jsp，以`jsp:include`方式嵌入在留言板页面：
 
@@ -212,7 +212,7 @@ String sql = "insert into [schema].comment (name, comment, \"time\")\n" +
 
 为了方便管理，将与管理员操作相关的页面放在admin文件夹内。点击页面底栏中的“管理员登录”即可进入管理员登录页面（login.jsp）。
 
-  ![pic7](readme_pic\pic7.png)
+  <img src="readme_pic\pic7.png" alt="pic7"/>
 
 登录页面由登录表单，“Cookie快速登录”链接、“返回首页”链接组成。在表单中输入用户名和密码后，表单将数据提交给Servlet.java。
 
@@ -291,7 +291,7 @@ Cookie设置后，浏览器中的Cookie列表将存有“login success”的Cook
 
 除此之外，Person.java定义了Person类，对需要用到的变量和函数进行封装，以接收进行增删改查的数据。
 
-  ![pic8](readme_pic\pic8.png)
+  <img src="readme_pic\pic8.png" alt="pic8"/>
 
 该数据表的结构：
 
@@ -323,7 +323,7 @@ go
 
 no是数据库自动生成的序号，其他信息是主要的操作对象。
 
-  ![pic9](readme_pic\pic9.png)
+  <img src="readme_pic\pic9.png" alt="pic9"/>
 
 以下是PersonServlet.java中查询所有学生数据的函数代码：
 
