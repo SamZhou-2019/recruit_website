@@ -1,0 +1,330 @@
+/*网页主体*/
+body {
+    width: 100%;
+    margin: 0;
+}
+
+/*大标题*/
+h1.big1 {
+    background-color: #ffffff;
+    color: black;
+    padding: 1% 5% 1% 5%;
+    margin: 0;
+    width: 90%;
+}
+
+h2.big2 {
+    background-color: #004182;
+    align-self: start;
+    color: white;
+    width: fit-content;
+    font-size: x-large;
+    border-left-color: #AF2125;
+    border-left-style: solid;
+    border-left-width: 20px;
+    padding: 5px;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*加粗文字*/
+b.important {
+    color: #AF2125;
+}
+
+b.title {
+    color: #004182;
+    font-size: xx-large;
+}
+
+/*导航栏*/
+div.nav {
+    background-color: #004182;
+    padding: 0 5% 0 5%;
+    margin: 0;
+    width: 90%;
+}
+
+div.nav table tr th{
+    width:15%;
+}
+
+div.nav table tr th a {
+    text-decoration: none;
+    display: block;
+    border-left : 1px solid white;
+    border-right : 1px solid white;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+div.nav table tr th a:hover{
+    background-color: #AF2125;
+}
+
+div.nav table tr th a:active{
+    background-color: red;
+}
+
+/*网站主体部分*/
+div.main {
+    width: 90%;
+    margin: 1% 5% 1%  5%;
+}
+
+/*快速链接按钮及列表*/
+div.menu {
+    position: fixed;
+    display: inline-block;
+    right: 5%;
+    top: 9%;
+    width: 200px;
+    z-index: 1;
+}
+
+button.menu_button {
+    background-color: rgb(136, 150, 163);
+    right: 5%;
+    font-size: xx-large;
+    border: none;
+    width: 200px;
+    position: fixed;
+    cursor: pointer;
+    top: 3%;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 3px;
+}
+
+div.menu:hover .menu_button {
+    background-color: black;
+    color: blanchedalmond;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+div.menu_content {
+    display: none;
+    position: relative;
+    background-color: slategrey;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+div.menu_content a {
+    display: block;
+    position: relative;
+    background-color: rgb(136, 150, 163);
+    text-decoration: none;
+    z-index: 1;
+    color: gold;
+    font-size: x-large;
+}
+
+div.menu:hover .menu_content {
+    display: block;
+    z-index: 1;
+}
+
+div.menu_content a:hover {
+    background-color: #004182;
+}
+
+div.menu_content a:active {
+    background-color: #AF2125   ;
+}
+
+/*页面底部*/
+div.bottom {
+    clear: both; 
+    padding: 30px;
+    position:relative;
+    bottom: 0;
+    background-color: #004182;
+    color: #ffffff;
+}
+
+/*二维码*/
+div.code {
+    background-color: #AF2125;
+    position: fixed;
+    left: 5%;
+    width: 15%;
+    top: 3%;
+    margin: 0;
+    z-index: -1;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.3);
+}
+
+div.code p{
+    color: #ffffff;
+    font-size: 100%;
+    float: left;
+    margin: 0;
+}
+
+div.code img{
+    float: right;
+    width: 40%;
+}
+
+/*侧边栏*/
+div.bar {
+    position: fixed;
+    left: 5%;
+    width: 15%;
+    height: auto;
+    border: none;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+
+div.bar table {
+    width: 100%;
+    border: none;
+    margin: 0;
+}
+
+div.bar table tr th {
+    background-color: #AF2125;
+    display: block;
+    padding: 0;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+div.bar table tr a {
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+div.bar table tr a:hover{
+    background-color: #AF2125;
+}
+
+div.bar table tr a:active{
+    background-color: red;
+}
+
+div.bar {
+    background-color: #004182;
+}
+
+
+/*主体内容*/
+div.content {
+    float:right;    
+    width: 74%;
+    font-size: x-large;
+    padding: 3% 3% 0 3%;
+    background-color: antiquewhite;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*留言板主体内容*/
+div.comment,div.search {
+    width: 90%;
+    font-size: x-large;
+    padding: 3% 3% 0 3%;
+    background-color: antiquewhite;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*返回顶部按钮*/
+div.top{
+    right:5%;
+    bottom:10%;
+    position:fixed;
+    z-index: 1;
+}
+
+div.top a{
+    text-decoration: none;
+    display: block; 
+    background-color: #00418266;
+    color: white;
+    font-size: x-large;
+    border-radius: 3px;
+}
+
+div.top a:hover{
+    background-color: #AF212566;
+    border-radius: 3px;
+}
+
+div.top a:active{
+    background-color: #ff000066;
+    border-radius: 3px;
+}
+
+/*专业表格中的特殊标记*/
+table.major th,table.major td{
+    border: 2px solid black;
+}
+
+b.new21 {
+    background-color: rgb(89,93,146);
+    color: white;
+}
+
+b.new20 {
+    background-color: #004182;
+    color: white;
+}
+
+b.new19 {
+    background-color: #EF9B49;
+    color: white;
+}
+
+b.best {
+    background-color: #AF2125;
+    color: white;
+}
+
+b.good {
+    background-color: #4F796C;
+    color: white;
+}
+
+table.qq{
+    margin: 0;
+}
+
+table.qq tr th{
+    width: 20%;
+    height: 3%;
+    text-align: center;
+    color: #004182;
+}
+
+table.qq tr td.province{
+    width: 20%;
+    height: 3%;
+    text-align: center;
+    color: #AF2125;
+}
+
+table.qq tr td.qqnum{
+    width: 20%;
+    height: 3%;
+    text-align: center;
+    font-size: x-large;
+}
+
+/*西电颜色
+rgb(175,33,37)西电红
+rgb(0,65,130)西电蓝
+rgb(167,130,75)辅助金
+rgb(239,155,73)辅助橙
+rgb(180,76,76)辅助红
+rgb(78,53,44)辅助棕
+rgb(136,150,163)辅助灰
+rgb(79,121,108)辅助绿
+rgb(89,93,146)辅助紫
+rgb(38,81,107)辅助蓝*/
